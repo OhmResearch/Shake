@@ -1,0 +1,7 @@
+=============== Oct 5, 2014 (EDT) ===============
+19:09:57.920679 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock D·DeletedEntry L·Level Q·SeqNum T·TimeElapsed
+19:09:57.923836 db@open opening
+19:09:57.924088 journal@recovery F·1
+19:09:57.932476 journal@recovery recovering @123
+19:09:57.942375 db@janitor F·3 G·0
+19:09:57.942480 db@open done T·18.575544ms

@@ -1,0 +1,13 @@
+=============== Oct 5, 2014 (EDT) ===============
+19:09:11.906197 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock D·DeletedEntry L·Level Q·SeqNum T·TimeElapsed
+19:09:11.907091 db@open opening
+19:09:11.907292 journal@recovery F·1
+19:09:11.911364 journal@recovery recovering @119
+19:09:11.991584 mem@flush created L0@122 N·72 S·1KiB "\x00..t,d3154":"\x01..c,d3223"
+19:09:12.001716 db@janitor F·4 G·0
+19:09:12.001844 db@open done T·94.683798ms
+19:09:15.562595 table@compaction L0·1 -> L1·1 S·5KiB Q·3225
+19:09:15.613137 table@build created L1@125 N·54 S·2KiB "\x00..g,v1967":"\x1e..\xcc,v3151"
+19:09:15.706783 table@remove removed @122
+19:09:15.707260 table@remove removed @121
+19:09:15.707356 table@compaction commited F-1 S-3KiB D·118 T·144.618733ms

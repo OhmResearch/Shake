@@ -1,0 +1,39 @@
+<configuration version="4">
+    <repository id="3PT37WZ-BBZPN6Q" directory="mailbox/to/BBZPN6Q" ro="true" rescanIntervalS="60" ignorePerms="false">
+        <node id="BBZPN6Q-LAXBVZC-KD2XOBN-5QJYKTO-5WAZPMA-3CSIQQF-XEOY4M5-T4FLGAN"></node>
+        <node id="3PT37WZ-4HY5SI5-AGGUQBI-DOSHD7G-SEWXUQG-2U4KICI-DJGAPO4-YIYMFA6"></node>
+        <versioning></versioning>
+    </repository>
+    <repository id="BBZPN6Q-3PT37WZ" directory="mailbox/from/BBZPN6Q" ro="false" rescanIntervalS="60" ignorePerms="false">
+        <node id="BBZPN6Q-LAXBVZC-KD2XOBN-5QJYKTO-5WAZPMA-3CSIQQF-XEOY4M5-T4FLGAN"></node>
+        <node id="3PT37WZ-4HY5SI5-AGGUQBI-DOSHD7G-SEWXUQG-2U4KICI-DJGAPO4-YIYMFA6"></node>
+        <versioning></versioning>
+    </repository>
+    <node id="BBZPN6Q-LAXBVZC-KD2XOBN-5QJYKTO-5WAZPMA-3CSIQQF-XEOY4M5-T4FLGAN" name="Angelos-MacBook-Air.local" compression="true">
+        <address>dynamic</address>
+    </node>
+    <node id="3PT37WZ-4HY5SI5-AGGUQBI-DOSHD7G-SEWXUQG-2U4KICI-DJGAPO4-YIYMFA6" name="blackberry" compression="false">
+        <address>dynamic</address>
+    </node>
+    <gui enabled="true" tls="false">
+        <address>127.0.0.1:8080</address>
+    </gui>
+    <options>
+        <listenAddress>0.0.0.0:22000</listenAddress>
+        <globalAnnounceServer>announce.syncthing.net:22026</globalAnnounceServer>
+        <globalAnnounceEnabled>true</globalAnnounceEnabled>
+        <localAnnounceEnabled>true</localAnnounceEnabled>
+        <localAnnouncePort>21025</localAnnouncePort>
+        <localAnnounceMCAddr>[ff32::5222]:21026</localAnnounceMCAddr>
+        <parallelRequests>16</parallelRequests>
+        <maxSendKbps>0</maxSendKbps>
+        <maxRecvKbps>0</maxRecvKbps>
+        <reconnectionIntervalS>60</reconnectionIntervalS>
+        <startBrowser>true</startBrowser>
+        <upnpEnabled>true</upnpEnabled>
+        <upnpLeaseMinutes>0</upnpLeaseMinutes>
+        <upnpRenewalMinutes>30</upnpRenewalMinutes>
+        <urAccepted>-1</urAccepted>
+        <restartOnWakeup>true</restartOnWakeup>
+    </options>
+</configuration>
